@@ -4,8 +4,8 @@ sudo apt update
 sudo apt upgrade
 
 #UFW setup
-sudo ufw allow ssh
-sudo ufw allow 9200/tcp #Elasticsearch HTTP
+#sudo ufw allow ssh
+#sudo ufw allow 9200/tcp #Elasticsearch HTTP
 sudo ufw allow 9300/tcp #Elasticsearch Transport
 sudo ufw allow 5601/tcp #Kibana
 sudo ufw allow 5044/tcp #Logstash Beats input (if Filebeat is used)
